@@ -7,24 +7,25 @@ body{
     min-width:320px;
     height:auto;
     overflow-x:hidden;
-    margin:-20px 0 0 0;
+    margin:-20px 0 ;
     
 
 }
 .header{
     position:relative;
     z-index: 2;
-    background-image: url("photo.jpg/back.jpg");
+    background-image: url("photoAnDvidio/back.jpg");
     min-height:800px;
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
-.header.briga{
-    min-height:800px;
+.conteiner{
+    
+    height:800px;
     display:flex;
     align-items: center;
-    
+    justify-content:center;
 }
 .content{
     text-align:center;
@@ -34,9 +35,6 @@ body{
     z-index: 2;
     text-align:center;
     color:#fff;
-}
-.ger{
-    line-height:4px;
 }
 .black{
     position:absolute;
