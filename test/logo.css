@@ -1,6 +1,49 @@
  body{  
     min-height:100vh;
-    background:linear-gradient(to top, black,grey);
+    background:linear-gradient(to top, rgb(175, 29, 180),blue);
+}
+.head_logo{
+    
+    text-align:center;
+}
+.login_card{
+    background-color: rgba(226, 222, 222, 0.696);
+    min-width:340px;
+    position:relative;
+    border-radius:10px;
+    z-index: 1;
+}
+.login_card::before{
+    background-color: rgba(226, 222, 222, 0.4596);
+    position:absolute;
+    content:'';
+    inset:0;
+    transform:rotate(-5deg);
+    border-radius:10px;
+    z-index:-1;
+    
+}
+.ema_logo{
+    padding:15px 25% 0;
+}
+.pass_logo{
+    padding:15px 25% 0;
+}
+.check_logo{
+    padding:10px 0;
+}
+.logo_form{
+    display:flex;
+    flex-direction: column;
+    gap:7px;
+}
+.logo_form>button{
+    
+    width:25%;
+    margin:0 auto;
+    margin-bottom:15px ;
+    border-radius: 10px;
+    
 }
 ul{
     display:flex;
@@ -32,7 +75,7 @@ li>a{
     width:1px;
     height:1px;
     margin:-1px;
-    
+    z-index: 2;
 }
 li{
     position:relative;
